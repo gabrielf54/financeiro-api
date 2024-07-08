@@ -4,7 +4,7 @@ import java.io.IOException;
 
 
 import com.gabriel.financeiroapi.service.JwtService;
-import com.gabriel.financeiroapi.service.SecurityUserDetailsService;
+import com.gabriel.financeiroapi.service.impl.SecurityUserDetailsService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

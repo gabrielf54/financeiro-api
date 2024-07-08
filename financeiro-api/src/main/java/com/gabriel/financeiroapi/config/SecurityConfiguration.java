@@ -2,7 +2,7 @@ package com.gabriel.financeiroapi.config;
 
 import com.gabriel.financeiroapi.api.JwtTokenFilter;
 import com.gabriel.financeiroapi.service.JwtService;
-import com.gabriel.financeiroapi.service.SecurityUserDetailsService;
+import com.gabriel.financeiroapi.service.impl.SecurityUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
