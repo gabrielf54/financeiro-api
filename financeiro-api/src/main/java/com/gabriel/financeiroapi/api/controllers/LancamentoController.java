@@ -39,7 +39,7 @@ public class LancamentoController {
         lancamentoFiltro.setAno(ano);
 
         Optional<Usuario> usuario = usuarioService.obterPorId(idUsuario);
-        if (!usuario.isPresent()) {
+        if (usuario.isEmpty()) {
             return ResponseEntity.badRequest().body("Não foi possível realizar a consulta. Usuário não encontrado para o Id informado.");
         } else {
             lancamentoFiltro.setUsuario(usuario.get());
