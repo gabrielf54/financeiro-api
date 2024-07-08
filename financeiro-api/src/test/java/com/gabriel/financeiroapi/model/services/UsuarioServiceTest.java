@@ -4,7 +4,7 @@ import com.gabriel.financeiroapi.exception.ErroAutenticacaoException;
 import com.gabriel.financeiroapi.exception.RegraNegocioException;
 import com.gabriel.financeiroapi.model.entity.Usuario;
 import com.gabriel.financeiroapi.model.repository.UsuarioRepository;
-import com.gabriel.financeiroapi.model.services.impl.UsuarioServiceImpl;
+import com.gabriel.financeiroapi.service.impl.UsuarioServiceImpl;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

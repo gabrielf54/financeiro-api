@@ -1,4 +1,4 @@
-package com.gabriel.financeiroapi.model.services;
+package com.gabriel.financeiroapi.service;
 
 import com.gabriel.financeiroapi.model.entity.Usuario;
 

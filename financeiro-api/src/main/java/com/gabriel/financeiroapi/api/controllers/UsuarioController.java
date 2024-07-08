@@ -1,11 +1,11 @@
-package com.gabriel.financeiroapi.model.controllers;
+package com.gabriel.financeiroapi.api.controllers;
 
 import com.gabriel.financeiroapi.exception.ErroAutenticacaoException;
 import com.gabriel.financeiroapi.exception.RegraNegocioException;
-import com.gabriel.financeiroapi.model.dto.UsuarioDTO;
+import com.gabriel.financeiroapi.api.dto.UsuarioDTO;
 import com.gabriel.financeiroapi.model.entity.Usuario;
-import com.gabriel.financeiroapi.model.services.LancamentoService;
-import com.gabriel.financeiroapi.model.services.UsuarioService;
+import com.gabriel.financeiroapi.service.LancamentoService;
+import com.gabriel.financeiroapi.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,7 +15,7 @@ import java.math.BigDecimal;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/usuarios")
+@RequestMapping("/api/usuarios")
 public class UsuarioController {
 
     @Autowired

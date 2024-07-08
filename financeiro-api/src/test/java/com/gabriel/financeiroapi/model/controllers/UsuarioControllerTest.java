@@ -1,12 +1,13 @@
 package com.gabriel.financeiroapi.model.controllers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.gabriel.financeiroapi.api.controllers.UsuarioController;
 import com.gabriel.financeiroapi.exception.ErroAutenticacaoException;
 import com.gabriel.financeiroapi.exception.RegraNegocioException;
-import com.gabriel.financeiroapi.model.dto.UsuarioDTO;
+import com.gabriel.financeiroapi.api.dto.UsuarioDTO;
 import com.gabriel.financeiroapi.model.entity.Usuario;
-import com.gabriel.financeiroapi.model.services.LancamentoService;
-import com.gabriel.financeiroapi.model.services.UsuarioService;
+import com.gabriel.financeiroapi.service.LancamentoService;
+import com.gabriel.financeiroapi.service.UsuarioService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mockito;

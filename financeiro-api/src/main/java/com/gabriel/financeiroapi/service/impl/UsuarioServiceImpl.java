@@ -1,10 +1,10 @@
-package com.gabriel.financeiroapi.model.services.impl;
+package com.gabriel.financeiroapi.service.impl;
 
 import com.gabriel.financeiroapi.exception.ErroAutenticacaoException;
 import com.gabriel.financeiroapi.exception.RegraNegocioException;
 import com.gabriel.financeiroapi.model.entity.Usuario;
 import com.gabriel.financeiroapi.model.repository.UsuarioRepository;
-import com.gabriel.financeiroapi.model.services.UsuarioService;
+import com.gabriel.financeiroapi.service.UsuarioService;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

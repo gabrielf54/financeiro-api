@@ -1,4 +1,4 @@
-package com.gabriel.financeiroapi.model.dto;
+package com.gabriel.financeiroapi.api.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

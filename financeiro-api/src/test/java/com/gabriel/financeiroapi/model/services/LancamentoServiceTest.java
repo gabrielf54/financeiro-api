@@ -6,7 +6,7 @@ import com.gabriel.financeiroapi.model.entity.Usuario;
 import com.gabriel.financeiroapi.model.enums.StatusLancamento;
 import com.gabriel.financeiroapi.model.repository.LancamentoRepository;
 import com.gabriel.financeiroapi.model.repository.LancamentoRepositoryTest;
-import com.gabriel.financeiroapi.model.services.impl.LancamentoServiceImpl;
+import com.gabriel.financeiroapi.service.impl.LancamentoServiceImpl;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mockito;
@@ -17,7 +17,6 @@ import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import java.math.BigDecimal;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 

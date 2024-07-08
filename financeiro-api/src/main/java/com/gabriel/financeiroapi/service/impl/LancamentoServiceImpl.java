@@ -1,11 +1,11 @@
-package com.gabriel.financeiroapi.model.services.impl;
+package com.gabriel.financeiroapi.service.impl;
 
 import com.gabriel.financeiroapi.exception.RegraNegocioException;
 import com.gabriel.financeiroapi.model.entity.Lancamento;
 import com.gabriel.financeiroapi.model.enums.StatusLancamento;
 import com.gabriel.financeiroapi.model.enums.TipoLancamento;
 import com.gabriel.financeiroapi.model.repository.LancamentoRepository;
-import com.gabriel.financeiroapi.model.services.LancamentoService;
+import com.gabriel.financeiroapi.service.LancamentoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;

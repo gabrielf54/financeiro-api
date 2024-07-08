@@ -1,14 +1,14 @@
-package com.gabriel.financeiroapi.model.controllers;
+package com.gabriel.financeiroapi.api.controllers;
 
 import com.gabriel.financeiroapi.exception.RegraNegocioException;
-import com.gabriel.financeiroapi.model.dto.AtualizaStatusDTO;
-import com.gabriel.financeiroapi.model.dto.LancamentoDTO;
+import com.gabriel.financeiroapi.api.dto.AtualizaStatusDTO;
+import com.gabriel.financeiroapi.api.dto.LancamentoDTO;
 import com.gabriel.financeiroapi.model.entity.Lancamento;
 import com.gabriel.financeiroapi.model.entity.Usuario;
 import com.gabriel.financeiroapi.model.enums.StatusLancamento;
 import com.gabriel.financeiroapi.model.enums.TipoLancamento;
-import com.gabriel.financeiroapi.model.services.LancamentoService;
-import com.gabriel.financeiroapi.model.services.UsuarioService;
+import com.gabriel.financeiroapi.service.LancamentoService;
+import com.gabriel.financeiroapi.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/lancamentos")
+@RequestMapping("/api/lancamentos")
 public class LancamentoController {
 
     @Autowired
